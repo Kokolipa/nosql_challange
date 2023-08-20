@@ -11,9 +11,9 @@ To answer the above questions the following methods were used:
 * Creating a query pipeline to answer the 4th question using the aggregate method. 
 
 #### NOTE:
-* > (A) The scores for Hygiene, Structural, and ConfidenceInManagement work in reverse. This means, the higher the value, the worse the establishment is in these areas.
-* > (B) RatingValue refers to the overall rating decided by the Food Authority and ranges from 1-5. The higher the value, the better the rating.
-*   > > (B.1) This field also includes non-numeric values such as 'Pass', where 'Pass' means that the establishment passed their inspection but isn't given a number rating. We will coerce non-numeric values to nulls during the database setup before converting ratings to integers.
+> **(A)** The scores for Hygiene, Structural, and ConfidenceInManagement work in reverse. This means, the higher the value, the worse the establishment is in these areas. <br>
+> **(B)** RatingValue refers to the overall rating decided by the Food Authority and ranges from 1-5. The higher the value, the better the rating. <br>
+> > **(B.1)** This field also includes non-numeric values such as 'Pass', where 'Pass' means that the establishment passed their inspection but isn't given a number rating. We will coerce non-numeric values to nulls during the database setup before converting ratings to integers. <br>
 
 ### Libraries used: 
 1. pymongo
