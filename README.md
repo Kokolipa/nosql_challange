@@ -1,4 +1,4 @@
-# Web Scrapping
+# NoSQL Project
 ### Project description:
 Analysis of the UK Food Standards Agency, in particular food hygiene ratings using NoSQL and Bash. Importing the json data using Bash and using NoSQL to perform CRUD operations on the json data as well as exploritory analysis to answer the following questions: 
 1. Which establishments have a hygiene score equal to 20?
